@@ -19,7 +19,7 @@ void BFS(int s){
     for(j=0;j<n;j++){
        
         if(G[temp][j]==1&&visited[j]==0){
-            visited[j]==1;
+            visited[j]=1;
             if(dist[j]==0)
              dist[j]=dist[temp]+6;
              //prev=dist[j];
